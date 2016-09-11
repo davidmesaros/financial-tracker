@@ -8,4 +8,8 @@ class UsersController < ApplicationController
   #     return "#{first_name} #{last_name}".strip if (first_name || last_name)
   #       "Anonymous"
   # end
+
+  def my_friends
+    
+  end
 end
