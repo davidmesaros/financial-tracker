@@ -4,8 +4,8 @@ class UsersController < ApplicationController
     @user = current_user
   end
 
-  def full_name
-      return "#{first_name} #{last_name}".strip if (first_name || last_name)
-        "Anonymous"
-  end
+  # def full_name
+  #     return "#{first_name} #{last_name}".strip if (first_name || last_name)
+  #       "Anonymous"
+  # end
 end

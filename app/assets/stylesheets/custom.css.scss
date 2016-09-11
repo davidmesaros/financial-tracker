@@ -19,10 +19,11 @@
 
 .nav.navbar-right li{
   .btn{
-    color: #fff !important
+    color: #fff !important;
+    margin-top: 5%;
   }
 
   .btn-danger:hover{
-    background-color: darken(#d9534f, 20%) !important
+    background-color: darken(#d9534f, 20%) !important;
   }
 }
